@@ -1,0 +1,818 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia/"
+     xml:base="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Energi-di-Indonesia="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Aplikasi_Energi_Surya -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Aplikasi_Energi_Surya">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Aplikasi_Energi_Surya"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Terbarukan"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Baku -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Baku">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Baku"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergy"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jenis_Batu_Bara -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jenis_Batu_Bara">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jenis_Batu_Bara"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Non_Terbarukan"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jenis_Bioenergi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jenis_Bioenergi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jenis_Batu_Bara"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Terbarukan"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jenis_Generator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jenis_Generator">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jenis_Generator"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Terbarukan"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jumlah_Turbin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jumlah_Turbin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jumlah_Turbin"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kapasitas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kapasitas">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kapasitas"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTA"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kapasitas"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kapasitas"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergy"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kegunaan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kegunaan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kegunaan"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Non_Terbarukan"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Lokasi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Lokasi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Lokasi"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTA"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Manfaat_Energi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Manfaat_Energi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Manfaat_Energi"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Konsep_Energi_Terbarukan"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Pemanfaatan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Pemanfaatan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Pemanfaatan"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Penelitian_Energi_Berkelanjutan"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Pengembangan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Pengembangan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Pengembangan"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Penelitian_Energi_Berkelanjutan"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sumber_Energi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sumber_Energi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sumber_Energi"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Konsep_Energi_Terbarukan"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Tipe_Energi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Tipe_Energi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Tipe_Energi"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Konsep_Energi_Terbarukan"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Upaya_Pemerintah -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Upaya_Pemerintah">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Upaya_Pemerintah"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergy"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Non_Terbarukan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Non_Terbarukan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Terbarukan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Terbarukan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Konsep_Energi_Terbarukan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Konsep_Energi_Terbarukan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Penelitian_Energi_Berkelanjutan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Penelitian_Energi_Berkelanjutan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/2023/4/energi-di-indonesia#150-MW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/2023/4/energi-di-indonesia#150-MW"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Angin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Angin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Antrasit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Antrasit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Bakar_Memasak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Bakar_Memasak"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Baku_Bangunan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Baku_Bangunan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Baku_Industri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Baku_Industri"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Baku_Keperluan_Medis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Baku_Keperluan_Medis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bandung_Barat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bandung_Barat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Batu_Bara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Batu_Bara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Non_Terbarukan"/>
+        <Energi-di-Indonesia:Jenis_Batu_Bara rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Antrasit"/>
+        <Energi-di-Indonesia:Jenis_Batu_Bara rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bituminus"/>
+        <Energi-di-Indonesia:Jenis_Batu_Bara rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sub-bituminus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bioenergy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bioenergy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Terbarukan"/>
+        <Energi-di-Indonesia:Jenis_Bioenergi rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Biofuel"/>
+        <Energi-di-Indonesia:Jenis_Bioenergi rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Biomassa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Biofuel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Biofuel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Biomassa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Biomassa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bituminus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bituminus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Cianjur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Cianjur"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Diversifikasi_Energi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Diversifikasi_Energi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Penelitian_Energi_Berkelanjutan"/>
+        <Energi-di-Indonesia:Pengembangan rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Peningkatan_Ekonomi_pada_Industri"/>
+        <Energi-di-Indonesia:Pengembangan rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Penyediaan_Listrik_di_Daerah_Terpencil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Air -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Air">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Terbarukan"/>
+        <Energi-di-Indonesia:Jenis_Generator rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kincir_Air"/>
+        <Energi-di-Indonesia:Jenis_Generator rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sumber_Air"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Surya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Surya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Terbarukan"/>
+        <Energi-di-Indonesia:Aplikasi_Energi_Surya rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Lampu"/>
+        <Energi-di-Indonesia:Aplikasi_Energi_Surya rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sistem_Pemanas"/>
+        <Energi-di-Indonesia:Jenis_Generator rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Inverter"/>
+        <Energi-di-Indonesia:Jenis_Generator rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Panel_Surya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Fosil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Fosil"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Gas_Bumi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Gas_Bumi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Non_Terbarukan"/>
+        <Energi-di-Indonesia:Kegunaan rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Bakar_Memasak"/>
+        <Energi-di-Indonesia:Kegunaan rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Baku_Industri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Hemat_Sumber_Daya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Hemat_Sumber_Daya"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Intensifikasi_Energi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Intensifikasi_Energi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Penelitian_Energi_Berkelanjutan"/>
+        <Energi-di-Indonesia:Pemanfaatan rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sumber_Energi_Hidrokinetik"/>
+        <Energi-di-Indonesia:Pengembangan rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Peningkat_Cadangan_Minyak_Terbukti"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Inverter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Inverter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jagung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jagung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jenis_Energi_Terbarukan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jenis_Energi_Terbarukan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Konsep_Energi_Terbarukan"/>
+        <Energi-di-Indonesia:Sumber_Energi rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Angin"/>
+        <Energi-di-Indonesia:Sumber_Energi rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Matahari"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kelapa_Sawit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kelapa_Sawit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kendaraan_Bermotor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kendaraan_Bermotor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kincir_Air -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kincir_Air"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Konservasi_Energi_dan_Manajemen_Energi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Konservasi_Energi_dan_Manajemen_Energi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Penelitian_Energi_Berkelanjutan"/>
+        <Energi-di-Indonesia:Pengembangan rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Pengelola_Bangunan_Komersial"/>
+        <Energi-di-Indonesia:Pengembangan rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Smart_Grid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Lampu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Lampu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Manfaat_Energi_Terbarukan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Manfaat_Energi_Terbarukan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Konsep_Energi_Terbarukan"/>
+        <Energi-di-Indonesia:Manfaat_Energi rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Hemat_Sumber_Daya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Matahari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Matahari"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Minyak_Bumi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Minyak_Bumi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Energi_Non_Terbarukan"/>
+        <Energi-di-Indonesia:Kegunaan rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Baku_Bangunan"/>
+        <Energi-di-Indonesia:Kegunaan rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bahan_Baku_Keperluan_Medis"/>
+        <Energi-di-Indonesia:Kegunaan rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kendaraan_Bermotor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTA_Sulewana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTA_Sulewana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTA"/>
+        <Energi-di-Indonesia:Kapasitas rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#400_MW"/>
+        <Energi-di-Indonesia:Lokasi rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Poso"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB_Ciemas_Sukabumi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB_Ciemas_Sukabumi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB"/>
+        <Energi-di-Indonesia:Jumlah_Turbin rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#50"/>
+        <Energi-di-Indonesia:Kapasitas rdf:resource="http://www.semanticweb.org/resky/ontologies/2023/4/energi-di-indonesia#150-MW"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB_Jeneponto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB_Jeneponto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB"/>
+        <Energi-di-Indonesia:Jumlah_Turbin rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#20"/>
+        <Energi-di-Indonesia:Kapasitas rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#72_MW"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB_Sidrap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB_Sidrap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTB"/>
+        <Energi-di-Indonesia:Jumlah_Turbin rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#30"/>
+        <Energi-di-Indonesia:Kapasitas rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#75_MW"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Panel_Surya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Panel_Surya"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Pengelola_Bangunan_Komersial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Pengelola_Bangunan_Komersial"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Pengembangan_Bioenergi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Pengembangan_Bioenergi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Peningkat_Cadangan_Minyak_Terbukti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Peningkat_Cadangan_Minyak_Terbukti"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Peningkatan_Ekonomi_pada_Industri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Peningkatan_Ekonomi_pada_Industri"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Penyediaan_Listrik_di_Daerah_Terpencil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Penyediaan_Listrik_di_Daerah_Terpencil"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Poso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Poso"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergi_Jenis_Biodiesel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergi_Jenis_Biodiesel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergy"/>
+        <Energi-di-Indonesia:Bahan_Baku rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Kelapa_Sawit"/>
+        <Energi-di-Indonesia:Upaya_Pemerintah rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Riset_dan_Penelitian_Bioenergi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergi_Jenis_Bioetanol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergi_Jenis_Bioetanol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergy"/>
+        <Energi-di-Indonesia:Bahan_Baku rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Jagung"/>
+        <Energi-di-Indonesia:Upaya_Pemerintah rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Program_Subsidi_untuk_Produksi_Bioetanol"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergi_untuk_Pembangkit_Listrik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergi_untuk_Pembangkit_Listrik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Potensi_Bioenergy"/>
+        <Energi-di-Indonesia:Kapasitas rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#442_MW"/>
+        <Energi-di-Indonesia:Upaya_Pemerintah rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Pengembangan_Bioenergi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Program_Subsidi_untuk_Produksi_Bioetanol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Program_Subsidi_untuk_Produksi_Bioetanol"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Purwakarta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Purwakarta"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Riset_dan_Penelitian_Bioenergi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Riset_dan_Penelitian_Bioenergi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sistem_Pemanas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sistem_Pemanas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Smart_Grid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Smart_Grid"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sub-bituminus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sub-bituminus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sumber_Air -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sumber_Air"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sumber_Energi_Hidrokinetik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sumber_Energi_Hidrokinetik"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sumber_Energi_Terbarukan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Sumber_Energi_Terbarukan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Konsep_Energi_Terbarukan"/>
+        <Energi-di-Indonesia:Tipe_Energi rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Fosil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Waduk_Cirata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Waduk_Cirata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTA"/>
+        <Energi-di-Indonesia:Kapasitas rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#1008_MW"/>
+        <Energi-di-Indonesia:Lokasi rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bandung_Barat"/>
+        <Energi-di-Indonesia:Lokasi rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Cianjur"/>
+        <Energi-di-Indonesia:Lokasi rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Purwakarta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Waduk_Saguling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Waduk_Saguling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#PLTA"/>
+        <Energi-di-Indonesia:Kapasitas rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#700_MW"/>
+        <Energi-di-Indonesia:Lokasi rdf:resource="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#Bandung_Barat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#1008_MW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#1008_MW"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#150_MW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#150_MW"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#20"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#30"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#400_MW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#400_MW"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#442_MW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#442_MW"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#50 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#50"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#700_MW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#700_MW"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#72_MW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#72_MW"/>
+    
+
+
+    <!-- http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#75_MW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/resky/ontologies/Energi-di-Indonesia#75_MW"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
